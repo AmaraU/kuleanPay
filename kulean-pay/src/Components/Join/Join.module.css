@@ -1,0 +1,61 @@
+.theWhole {
+    padding: 64px 426px;
+    text-align: center;
+}
+.theWhole p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0582D2;
+}
+.theWhole h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #09101D;
+}
+
+.join {
+    border-radius: 40px;
+    border: 1px solid #C2C5CC;
+    justify-content: space-between;
+    display: flex;
+    height: 45px;
+    padding: 8px 8px 8px 24px;
+}
+.join input {
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 40px;
+}
+.join input::placeholder {
+    color: #C2C5CC;
+}
+.join button {
+    border-radius: 40px;
+    padding: 12px 32px;
+    background-color: #0582D2;
+    border: none;
+    color: #FFFFFF;
+}
+
+.telegram {
+    margin-top: 40px;
+}
+
+.telegram p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2A2D32;
+}
+.telegram a {
+    color: #0582D2;
+}
+
+
+@media screen and (max-width: 830px) {
+
+    .theWhole {
+        padding: 64px 24px;
+    }
+    
+}

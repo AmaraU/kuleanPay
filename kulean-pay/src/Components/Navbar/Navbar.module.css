@@ -1,0 +1,139 @@
+
+.whole {
+    background-color: #F0F7FF;
+    padding: 18px 120px;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.folding {
+    flex: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    flex: 25%;
+}
+.logo img {
+    width: 144px;
+    height: 46px;
+}
+
+.menu {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+}
+
+.link {
+    color: #4F545E;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+.buttonOne {
+    height: 44px;
+    border: 1px solid #0582D2;
+    color: #0582D2;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 12px 16px;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.buttonTwo {
+    height: 44px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #0582D2;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
+
+.menuItems {
+    display: flex;
+    gap: 47px;
+    list-style: none;
+}
+
+.menuItems a {
+    font-size: 25px;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 830px) {
+    .whole {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #FFFFFF;        
+    }
+
+    .links {
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 11px;
+        z-index: 3;
+    }
+    .buttons {
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .menuBtn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menuItems {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        /* background: rgb(25, 55, 109); */
+        /* background: linear-gradient(
+            0deg,
+            rgba(25, 55, 109, 0.2) 0%,
+            rgba(25, 55, 109, 1) 100%
+        ); */
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+
+    }
+    
+    .menuOpen {
+        display: flex;
+        z-index: 1;
+    }
+}

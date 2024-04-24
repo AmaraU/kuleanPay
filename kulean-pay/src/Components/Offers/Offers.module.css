@@ -1,0 +1,97 @@
+.whole {
+    padding: 64px 120px;
+    text-align: center;
+}
+
+.heading {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 588px;
+    margin-bottom: 72px;
+
+}
+
+.heading h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0582D2;
+}
+.heading h2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #09101D;
+}
+.heading p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #383B43;
+}
+
+.offers {
+    display: flex;
+    gap: 24px;
+}
+
+.offer {
+    width: 374px;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #DEDFE3;
+    background-color: #F3F4F6;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.icon img {
+    width: 28px;
+    height: 28px;
+}
+
+
+.offer h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #09101D;
+}
+.offer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4F545E;
+}
+
+@media screen and (max-width: 830px) {
+
+    .whole {
+        flex-direction: column;
+        padding: 64px 24px;
+    }
+
+    .heading {
+        width: 345px;
+    }
+    .heading h2 {
+        font-size: 40px;
+    }
+    
+    .offers {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .offer {
+        width: 100%;
+        padding: 24px 0;
+    }
+    
+}

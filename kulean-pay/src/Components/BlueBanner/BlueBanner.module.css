@@ -1,0 +1,80 @@
+.banner {
+    padding: 64px 426px;
+    background-color: #011F32;
+    background-image: url("../../../../assets/grid.png");
+    background-size: 100% 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.banner .img1 {
+    width: 588px;
+    height: 262px;
+    border-radius: 8px;
+}
+.banner .img2 {
+    display: none;
+}
+
+.banner h2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #F3F4F6;
+}
+
+.banner p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ACB0B9;
+    line-height: 28px;
+}
+
+.banner button {
+    width: 160px;
+    height: 56px;
+    border-radius: 8px;
+    padding: 14px 20px;
+    background-color: #0582D2;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.banner .icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+
+@media screen and (max-width: 830px) {
+
+    .banner {
+        padding: 64px 24px;
+        background-color: #011F32;
+        background-image: url("../../../../assets/grid2.png");
+        background-size: 100% 100%;
+        align-items: center;
+        text-align: left;
+    }
+    
+    .banner .img2 {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .banner .img1 {
+        display: none;
+    }
+    
+    .banner h2 {
+        font-size: 46px;
+    }
+    .banner p {
+        font-size: 20px;
+    }
+    
+}
