@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 64px 120px;
+    background-color: #FFFFFF;
 }
 
 .image {
@@ -29,6 +30,7 @@
     font-size: 48px;
     font-weight: 400;
     color: #09101D;
+    font-family: 'PPRadioGrotesk';
 }
 .text p {
     font-size: 18px;
@@ -37,7 +39,7 @@
     color: #383B43;
 }
 .text button {
-    width: 160px;
+    /* width: 160px; */
     height: 56px;
     border-radius: 8px;
     border: 1px solid #0582D2;

@@ -1,10 +1,10 @@
 .footer {
     padding: 64px 120px;
+    background-color: #FFFFFF;
 }
 
 .banner {
     background: linear-gradient(100.45deg, #034772 15.3%, #0693EE 89.1%);
-    margin-bottom: 64px;
     padding: 0 88px;
     padding-top: 40px;
 
@@ -22,18 +22,20 @@
     font-size: 56px;
     font-weight: 400;
     color: #FFFFFF;
+    font-family: 'PPRadioGrotesk';
 }
 
 .buttons {
     width: 353px;
     height: 56px;
     margin-bottom: 67px;
+    display: flex;
 }
 .buttons img {
     width: 32px;
     height: 32px;
 }
-.buttons button {
+.buttons a {
     border-radius: 8px;
     border: 1px solid #FFFFFF66;
     padding: 12px 13px;
@@ -43,6 +45,10 @@
     align-items: center;
     margin-right: 12px;
     gap: 8px;
+    font-size: 14px;
+}
+.buttons a:hover {
+    background-color: #ffffff41;
 }
 
 .image {
@@ -57,22 +63,27 @@
 .bottom {
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    margin-top: 64px;
 }
 
 .links {
     flex: 80%;
     padding: 0 30px;
-    margin-top: -30px;
     display: flex;
     justify-content: space-between;
-    align-items: start;
 }
 .links a {
     color: #09101D;
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+
+.link p {
+    margin-bottom: 15px;
 }
 
 .logo {
@@ -85,6 +96,10 @@
 .logo a {
     color: #0582D2;
 }
+.logo li {
+    margin-left: 20px;
+    font-family: 'PPRadioGrotesk';
+}
 
 
 .socials img {
@@ -95,10 +110,13 @@
 
 .providus {
     text-align: right;
-    /* display:flex; */
-    /* height: 36px;
-    align-items: center; */
     margin-top: 36px;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+.providus span {
+    font-family: 'PPRadioGrotesk';
 }
 .providus img {
     width: 29px;
@@ -121,6 +139,7 @@
 
         flex-direction: column;
         text-align: center;
+        align-items: center;
     }
    
     .text h2 {
@@ -167,19 +186,21 @@
         display: grid;
         grid-template-columns: repeat(2, 100%);
         gap: 14px;
-        padding: 0 0 0 30px;
+        padding: 0 0 0 0;
+        width: 50%;
+
     }
 
     .link {
-        width: 50%;
+        width: auto;
     }
     
     .providus {
         margin: 0;
         padding: 0;
-        text-align: center;
         margin-top: 36px;
         margin-right: 10px;
+        justify-content: center;
     }
     .providus img {
         width: 29px;

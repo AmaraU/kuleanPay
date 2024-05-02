@@ -11,14 +11,14 @@ export const Footer = () => {
                     <p>DOWNLOAD THE MOBILE APP</p>
                     <h2>Protect yourself from fraudulent transactions</h2>
                     <div className={styles.buttons}>
-                        <button className={styles.buttonOne}>
+                        <a href="https://apps.apple.com/ng/app/kuleanpay/id1659853273" target="_blank" className={styles.buttonOne}>
                             <img src={getImageUrl("logos/appStore.png")} alt="" />
                             APP STORE
-                        </button>
-                        <button className={styles.buttonTwo}>
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.cwg.kuleanpay" target="_blank" className={styles.buttonTwo}>
                             <img src={getImageUrl("logos/googlePlay.png")} alt="" />
                             GOOGLE PLAY
-                        </button>
+                        </a>
                     </div>
                 </div>
 
@@ -30,9 +30,9 @@ export const Footer = () => {
             <div className={styles.bottom}>
 
                 <div className={styles.logo}>
-                    <img src={getImageUrl("logos/KPLogo.png")} alt="kuleanpay" />
+                    <a href="https://www.thefifthlab.com"><img src={getImageUrl("logos/KPLogo.png")} alt="kuleanpay" /></a>
                     <ul>
-                        <li>Powered by <a href="">Fifthlab</a></li>
+                        <li>Powered by <a href="https://www.thefifthlab.com">Fifthlab</a></li>
                     </ul>
                 </div>
 
@@ -41,7 +41,7 @@ export const Footer = () => {
                         <p>QUICK LINKS</p>
                         <p><a href="">Product</a></p>
                         <p><a href="">Services</a></p>
-                        <p><a href="">Partners</a></p>
+                        <p><a href="/partner">Partners</a></p>
                         <p><a href="">Create Transaction</a></p>
                     </div>
                     <div className={styles.link}>
@@ -59,12 +59,12 @@ export const Footer = () => {
                     <div className={styles.link}>
                         <p>COMPANY</p>
                         <p><a href="">About us</a></p>
-                        <p><a href="">Become a partner</a></p>
+                        <p><a href="/partner">Become a partner</a></p>
                         <p><a href="">Contact us</a></p>
                         <div className={styles.socials}>
-                            <img src={getImageUrl("icons/facebook.png")} alt="" />
-                            <img src={getImageUrl("icons/insta.png")} alt="" />
-                            <img src={getImageUrl("icons/twitter.png")} alt="" />
+                            <a href="https://www.facebook.com/FifthlabAfrica" target="_blank"><img src={getImageUrl("icons/facebook.png")} alt="" /></a>
+                            <a href="https://twitter.com/FifthlabAfrica" target="_blank"><img src={getImageUrl("icons/insta.png")} alt="" /></a>
+                            <a href="https://www.instagram.com/fifthlabafrica" target="_blank"><img src={getImageUrl("icons/twitter.png")} alt="" /></a>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,7 @@
 .banner {
-    padding: 64px 426px;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 400px;
     background-color: #011F32;
     background-image: url("../../../../assets/grid.png");
     background-size: 100% 100%;
@@ -10,16 +12,18 @@
 .banner .img1 {
     width: 588px;
     height: 262px;
-    border-radius: 8px;
+    margin-bottom: 40px;
 }
 .banner .img2 {
     display: none;
 }
 
 .banner h2 {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 400;
     color: #F3F4F6;
+    margin-bottom: 24px;
+    font-family: 'PPRadioGrotesk';
 }
 
 .banner p {
@@ -27,6 +31,7 @@
     font-weight: 400;
     color: #ACB0B9;
     line-height: 28px;
+    margin-bottom: 0;
 }
 
 .banner button {
