@@ -1,0 +1,106 @@
+.Benefit{
+    width: 1440px;
+    height: 836px;
+    padding: 120px;
+    gap: 72px;
+    margin-top: 10%;
+    text-align: center;
+    justify-content: center;
+}
+
+.bread{
+    width: (588px)px;
+    height:  (119px)px;
+    gap: 24px;
+    opacity: 0px;
+    margin-bottom: 10%;
+    display: block;
+    align-content: center;
+}
+
+.bread h5{
+    width: 67px;
+    height: 14px;
+    font-weight: 700;
+    size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    color: #0582d2;
+    gap: 56px;
+    margin-bottom:0;
+}
+
+
+.bread h1{
+     font-size: 48px;
+     font-weight: 400;
+     line-height: 81px;
+     text-align: left;
+}
+
+.bread p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    display: contents;
+    align-items: center;
+    gap: 70%;
+    width: 588px;
+}
+
+
+@media screen and (max-width: 830px) {
+    .Benefit{
+        width: 1440px;
+        height: 836px;
+        padding: 120px;
+        gap: 72px;
+        margin-top: 10%;
+        flex-direction: column;
+    }
+    
+    .bread{
+        width: (588px)px;
+        height:  (119px)px;
+        gap: 24px;
+        opacity: 0px;
+        margin-bottom: 10%;
+        display: block;
+        align-content: center;
+    }
+    
+    .bread h5{
+        width: 67px;
+        height: 14px;
+        font-weight: 700;
+        size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.5px;
+        color: #0582d2;
+        gap: 56px;
+        margin-bottom:0;
+    }
+    
+    
+    .bread h1{
+         font-size: 48px;
+         font-weight: 400;
+         line-height: 81px;
+         text-align: left;
+    }
+    
+    .bread p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: -0.4000000059604645px;
+        text-align: left;
+        display: contents;
+        align-items: center;
+        gap: 70%;
+        width: 588px;
+    }
+}
+

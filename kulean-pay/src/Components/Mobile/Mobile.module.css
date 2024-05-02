@@ -1,0 +1,8 @@
+.Mobile{
+    width: 1900px;
+    height: 366px;
+    padding: 0px 88px 0px 88px;
+    margin-left: 5%;
+    display:flex;
+    justify-content: space-between;
+}

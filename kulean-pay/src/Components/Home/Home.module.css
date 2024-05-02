@@ -117,6 +117,7 @@ button {
     }
     .buttonTwo input {
         width: auto;
+        outline: none;
     }
 
     .buttons img {

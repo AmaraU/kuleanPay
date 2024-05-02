@@ -1,0 +1,26 @@
+.product{
+    width: 1400px;
+    height: 564px;
+    padding: 0px 120px 0px 120px;
+    gap: 48px;
+    display: block;
+    align-content: center;
+    margin-top: 10%;
+}
+
+
+@media screen and (max-width: 830px) {
+    .product{
+        width: auto;
+        height: auto;
+        padding: 0px 120px ;
+        gap: 48px;
+        display:block ;
+        align-content:end;
+        margin-top: 40px;
+        flex-direction: column;
+        margin-right: 100%;
+        
+    }
+    
+}

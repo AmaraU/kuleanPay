@@ -1,0 +1,22 @@
+.Money{
+    width: Fixed (1,440px)px;
+    height: Hug (608px)px;
+    padding: 64px 180px 64px 180px;
+    gap: 40px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 830px) {
+    .Money{
+        width: auto;
+        height: auto;
+        padding: 64px 180px 64px 180px;
+        gap: 40px;
+        opacity: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+}

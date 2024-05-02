@@ -1,0 +1,25 @@
+.work{
+    width: Fixed (1,440px)px;
+    height: Hug (144px)px;
+    padding: 64px 120px 24px 120px;
+    gap: 120px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+}
+
+
+@media screen and (max-width: 830px) {
+    .work{
+        width: Fixed (1,440px)px;
+        height: Hug (144px)px;
+        padding: 64px 120px 24px 120px;
+        gap: 120px;
+        opacity: 0px;
+        display: block;
+        align-items: center;
+        margin-left:130px;
+        flex-direction: column;
+    } 
+}

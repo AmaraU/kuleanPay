@@ -1,0 +1,298 @@
+.Escrow{
+    width: 90%;
+    height: 714px;
+    padding: 64px, 120px, 64px, 120px;
+    gap:24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img{
+    width: 588px;
+    height: 480px;
+    padding-left: 10%;
+}
+
+.text{
+    width: 588px;
+    height: 586px;
+    padding: 40px;
+    gap: 40px;
+}
+
+.header{
+    width: 508px;
+    height: 106px;
+    gap: 24px;
+}
+
+.bread{
+    width: 508px;
+    height: 104px;
+    radius:16px;
+    padding:16px 0px 16px 0px;
+    gap: 32px;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.bread img{
+    width: 48px;
+    height: 48px;
+    radius:8px;
+    border: 1px;
+    padding:8px;
+    gap:8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.bread h4{
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #09101d;
+    margin-top: 10%;
+}
+
+.bread p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -1%;
+    color: #4f545e;
+    margin-top: 5%;
+}
+
+
+.crumbs{
+    width: 508px;
+    height: 104px;
+    radius:16px;
+    padding:16px, 0px, 16px, 0px;
+    gap: 32px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.crumbs img{
+    width: 48px;
+    height: 48px;
+    radius:8px;
+    border: 1px;
+    padding:8px;
+    gap:8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.crumbs h4{
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #09101d;
+}
+
+.crumbs p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -1%;
+    color: #4f545e;
+}
+
+.alt{
+    width: 508px;
+    height: 104px;
+    radius:16px;
+    padding:16px, 0px, 16px, 0px;
+    gap: 32px; 
+
+    display: flex;
+    align-items: center;
+}
+
+.alt img{
+    width: 48px;
+    height: 48px;
+    radius:8px;
+    border: 1px;
+    padding:8px;
+    gap:8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.alt h4{
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #09101d;
+}
+
+.alt p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -1%;
+    color: #4f545e;
+}
+
+
+
+@media screen and (max-width: 830px) {
+    .Escrow{
+        width:auto;
+        height: auto;
+        padding: 64px, 120px, 64px, 120px;
+        gap:24px;
+    
+        flex-direction: column;
+    }
+    
+    .img{
+        width: auto;
+        height: auto;
+        padding-left: 10%;
+    }
+    
+    .text{
+        width: auto;
+        height: auto;
+        padding: 40px;
+        gap: 40px;
+    }
+    
+    .header{
+        width: auto;
+        height: auto;
+        gap: 24px;
+    }
+    
+    .bread{
+        width: auto;
+        height: auto;
+        radius:16px;
+        padding:16px 0px 16px 0px;
+        gap: 32px;
+    
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .bread img{
+        width: 48px;
+        height: 48px;
+        radius:8px;
+        border: 1px;
+        padding:8px;
+        gap:8px;
+        display: flex;
+    
+    }
+    
+    .bread h4{
+        font-weight: 400px;
+        font-size: 24px;
+        line-height: 36px;
+        color: #09101d;
+        margin-top: 10%;
+    }
+    
+    .bread p{
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -1%;
+        color: #4f545e;
+        margin-top: 5%;
+    }
+    
+    
+    .crumbs{
+        width: 508px;
+        height: 104px;
+        radius:16px;
+        padding:16px, 0px, 16px, 0px;
+        gap: 32px;
+        
+        display: flex;
+        align-items: center;
+    }
+    
+    .crumbs img{
+        width: 48px;
+        height: 48px;
+        radius:8px;
+        border: 1px;
+        padding:8px;
+        gap:8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    
+    .crumbs h4{
+        font-weight: 400px;
+        font-size: 24px;
+        line-height: 36px;
+        color: #09101d;
+    }
+    
+    .crumbs p{
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -1%;
+        color: #4f545e;
+    }
+    
+    .alt{
+        width: 508px;
+        height: 104px;
+        radius:16px;
+        padding:16px, 0px, 16px, 0px;
+        gap: 32px; 
+    
+        display: flex;
+        align-items: center;
+    }
+    
+    .alt img{
+        width: 48px;
+        height: 48px;
+        radius:8px;
+        border: 1px;
+        padding:8px;
+        gap:8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    
+    .alt h4{
+        font-weight: 400px;
+        font-size: 24px;
+        line-height: 36px;
+        color: #09101d;
+    }
+    
+    .alt p{
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -1%;
+        color: #4f545e;
+    }
+    
+}
+
