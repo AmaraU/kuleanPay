@@ -14,6 +14,7 @@ function App() {
   switch (window.location.pathname) {
     case "/":
       Component = HomePage
+      break
     case "/whyKP":
       Component = WhyKP
       break
