@@ -1,6 +1,6 @@
 .Money{
-    width: Fixed (1,440px)px;
-    height: Hug (608px)px;
+    width: 100%;
+    height: auto;
     padding: 64px 180px 64px 180px;
     gap: 40px;
     opacity: 0px;

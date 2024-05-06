@@ -5,7 +5,7 @@ import { getImageUrl } from "../../utils";
 export const MerchantLink = () => {
     return (
         <>
-        <div className={styles.whole}>
+        <div className={styles.theWhole}>
             <h2>How to get your merchant link</h2>
 
             <div className={styles.textLineDot}>

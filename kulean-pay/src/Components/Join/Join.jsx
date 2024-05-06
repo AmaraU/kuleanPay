@@ -12,7 +12,7 @@ export const Join = () => {
                 <button>Join</button>
             </div>
             <div className={styles.telegram}>
-                <p>Join us on <a href="">Telegram</a></p>
+                <p>Join us on <a href="https://t.me/kuleanpay" target="_blank">Telegram</a></p>
             </div>
 
         </div>

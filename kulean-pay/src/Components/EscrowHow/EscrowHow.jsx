@@ -6,7 +6,7 @@ export const EscrowHow = () => {
     return (
         <>
         <div className={styles.whole}>
-            <h2>How it works</h2>
+            <h3>How it works</h3>
 
             <div className={`${styles.item} ${styles.one}`}>
                 <div className={styles.text}>

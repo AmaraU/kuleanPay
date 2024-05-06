@@ -1,11 +1,14 @@
 .product{
-    width: 1400px;
-    height: 564px;
-    padding: 0px 120px 0px 120px;
-    gap: 48px;
+    width: 100%;
+    padding: 0px 120px;
     display: block;
     align-content: center;
     margin-top: 10%;
+}
+
+.productImg {
+    width: 100%;
+    height: auto;
 }
 
 
@@ -13,7 +16,7 @@
     .product{
         width: auto;
         height: auto;
-        padding: 0px 120px ;
+        padding: 0px 120px;
         gap: 48px;
         display:block ;
         align-content:end;

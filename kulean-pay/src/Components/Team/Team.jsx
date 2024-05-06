@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "./Team.module.css";
+import { getImageUrl } from "../../utils";
 
 export const Team = () => {
     return (
@@ -13,7 +14,10 @@ export const Team = () => {
             </h1>
         </div>
         <div>
-        <button  className={styles.button}>View Team </button>
+        <button  className={styles.button}>
+            View Team
+            <img src={getImageUrl("icons/whiteRightArrow.png")} alt="" />
+        </button>
         </div>
     </div>
     )

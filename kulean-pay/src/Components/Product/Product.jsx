@@ -21,7 +21,7 @@ export const Product = () => {
             combining digital innovation with deep Financial Services expertise
             and thorough process. 
         </div> */}
-        <div className={styles.product}>
+        <div className={styles.productImg}>
           <img src={getImageUrl("Frame 2.png")} alt="fr" />
         </div>
 

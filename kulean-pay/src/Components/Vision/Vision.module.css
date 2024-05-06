@@ -1,42 +1,30 @@
 .Vision{
-    width: 1440px;
-    height: 714px;
-    padding: 64px, 120px, 64px, 120px;
-    gap:24px;
+    width: 100%;
+    padding: 64px 180px;
+    gap: 48px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.Bread{
-    width: 500px;
-    Height:200px;
-    Gap:16px;
-    margin-left: 15%;
-}
-
 .Bread h5{
     font-weight: 700px;
-    size:14px;
+    font-size: 14px;
     line-height: 14px;
-    letter-spacing:0.5px;
+    letter-spacing: 0.5px;
     color: #0582d2;
-    margin-left: 20%;
 }
 
 .Bread h1{
-    height: 500px;
-    font-weight: 700;
-    size:70px;
-    color:#09101d;
-    margin-left: 20%;
+    font-weight: 400;
+    font-size: 48px;
+    color: #09101d;
 }
 
 .img{
-    width: 516px;
-    height: 480px;
-    margin-right: 10%;
+    width: auto;
+    height: auto;
 }
 
 

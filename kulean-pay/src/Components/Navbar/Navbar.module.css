@@ -48,13 +48,21 @@
 .link:hover {
     color: #0582D2;
 }
+.link img {
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+}
+.link span {
+    display: inline-flex;
+    align-items: center;
+}
 
 .buttons {
     display: flex;
     gap: 16px;
 }
 .buttonOne {
-    height: 44px;
     border: 1px solid #0582D2;
     color: #0582D2;
     background-color: transparent;
@@ -66,7 +74,6 @@
 }
 
 .buttonTwo {
-    height: 44px;
     border: none;
     color: #FFFFFF;
     background-color: #0582D2;
@@ -80,9 +87,6 @@ button {
 
 .onCloseTwo {
     display: none;
-}
-
-.onCloseTwo {
     position: absolute;
 }
 
@@ -125,6 +129,19 @@ a {
     text-decoration: none;
 }
 
+.onCloseMobile {
+    display: none;
+    position: relative;
+}
+
+.solutionsMobile {
+    display: none;
+}
+
+.solutionMobile {
+    display: none;
+}
+
 @media screen and (max-width: 830px) {
     .navbar {
         flex-direction: column;
@@ -161,12 +178,12 @@ a {
 
     .onClose {
         display: none;
+        width: 250px;
         height: 100%;
         margin-right: -75px;
         flex-direction: column;
         align-items: center;
         gap: 13px;
-        /* border-radius: 10px; */
         background-color: #FFFFFF;
         /* background: linear-gradient(
             0deg,
@@ -186,8 +203,43 @@ a {
         margin-top: 10px;
     }
 
-    /* .buttonOne {
-        border: 1px solid #FFFFFF;
-        color: #FFFFFF;
-    } */
+    .onCloseTwo {
+        display: none;
+    }
+    .solutions {
+        display: none;
+    }
+    .solution {
+        display: none;
+    }
+
+    .linkTwo {
+        /* background-color: rgba(0, 0, 0, 0.087); */
+    }
+
+    .solutionsMobile {
+        display: block;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        /* transition: display 1s linear ease-in; */
+    }
+    
+    .solutionMobile {
+        display: block;
+        padding: 10px;
+        color: #4F545E;
+    }
+    .solutionMobile:hover {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.05);
+        color: #0582D2;
+        /* background-color: rgba(0, 0, 0, 0.09); */
+    }
+
+    .links li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
