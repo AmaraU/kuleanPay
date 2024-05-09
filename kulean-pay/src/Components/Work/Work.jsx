@@ -26,7 +26,7 @@ export const Work = () => {
                 </div>
             </div>
 
-            <div className={${styles.item} ${styles.two}}>
+            <div className={`${styles.item} ${styles.two}`}>
                 <div className={styles.imageDiv}>
                     <img className={styles.image} src={getImageUrl("image 54.png")} alt="gr" />
                 </div>                
