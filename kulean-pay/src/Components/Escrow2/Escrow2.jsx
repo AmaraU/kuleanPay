@@ -4,7 +4,6 @@ import { getImageUrl } from "../../utils";
 
 export const Escrow2 = () => {
     return (
-        <>
         <div className={styles.whole}>
             <div className={styles.text}>
                 <h1>Buy & sell with Kuleanpay Escrow</h1>
@@ -40,6 +39,5 @@ export const Escrow2 = () => {
                 <img className={styles.img2} src={getImageUrl("escrowImg2.png")} alt="" />
             </div>
         </div>
-        </>
     )
 }
