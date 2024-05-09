@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Escrow.module.css";
+import styles from "./Escrow2.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Escrow2 = () => {
