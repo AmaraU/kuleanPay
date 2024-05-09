@@ -67,8 +67,8 @@
 
 .image .img1{
     margin-top: 77px;
-    width: 588px;
-    height: 480px;
+    width: 100%;
+    height: auto;
 }
 .image .img2 {
     display: none;
