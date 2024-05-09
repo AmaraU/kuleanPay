@@ -6,7 +6,7 @@ export const Work = () => {
     return(
         <div className={styles.work}>
            <h1> How it works</h1>
-           <div className={${styles.item} ${styles.one}}>
+           <div className={`${styles.item} ${styles.one}`}>
                 <div className={styles.text}>
                     <div className={styles.header}>
                         <img className={styles.icon} src={getImageUrl("star1.png")} alt="" />
