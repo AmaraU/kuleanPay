@@ -6,7 +6,7 @@ import styles from "./Vision.module.css";
 export const Vision = () => {
     return(
         <div className={styles.Vision}>
-            <div className={${styles.item} ${styles.one}}>
+            <div className={`${styles.item} ${styles.one}`}>
                 <div className={styles.text}>
                     <div className={styles.header}>
                         <h5>Vision</h5>
@@ -19,7 +19,7 @@ export const Vision = () => {
                 </div>
             </div>
             
-            <div className={${styles.item} ${styles.two}}>
+            <div className={`${styles.item} ${styles.two}`}>
                 <div className={styles.imageDiv}>
                     <img className={styles.image} src={getImageUrl("image 47.png")} alt="gr" />
                 </div>                
