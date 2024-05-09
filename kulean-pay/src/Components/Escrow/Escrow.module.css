@@ -1,5 +1,5 @@
 .whole {
-    padding: 64px 120px;
+    padding: 64px 90px;
     background-color: #F9FAFB;
 
     display: flex;
@@ -8,15 +8,19 @@
 }
 
 .text {
-    /* width: 588px; */
+    flex: 50%;
     padding: 40px 0;
     margin-right: 24px;
 }
+
 .text h1 {
     font-size: 48px;
-    font-weight: 400;
+    font-weight: 600;
     color: #09101D;
     margin-bottom: 40px;
+    font-family: 'PPRadioGrotesk';
+    line-height: 53px;
+    width: 80%;
 }
 
 
@@ -39,6 +43,7 @@
     display: grid;
     align-content: center;
     justify-content: center;
+    padding: 10px;
 }
 .icon img {
     width: 28px;
@@ -49,26 +54,35 @@
     padding: 16px 0;
     align-content: center;
 }
+
 .itemText h4 {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     color: #09101D;
     padding: 0;
     margin-top: 0;
     margin-bottom: 12px;
+    font-family: 'PPRadioGrotesk';
+    line-height: 36px;
 }
+
+
 .itemText p {
     font-size: 16px;
     font-weight: 400;
     color: #4F545E;
     padding: 0;
     margin: 0;
+    line-height: 24px;
 }
 
+.image {
+    flex: 50%
+}
 .image .img1{
     margin-top: 77px;
-    width: 588px;
-    height: 480px;
+    width: 100%;
+    height: auto;
 }
 .image .img2 {
     display: none;
@@ -89,6 +103,7 @@
     }
     .text h1 {
         font-size: 44px;
+        width: 100%;
     }
     
     
@@ -99,6 +114,11 @@
         display: block;
         width: 100%;
         height: auto;
+    }
+
+    .item {
+        margin: 0;
+        margin-top: 10px;
     }
     
 

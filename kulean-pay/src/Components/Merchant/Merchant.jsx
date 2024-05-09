@@ -8,7 +8,7 @@ export const Merchant = () => {
         <div className={styles.theWhole}>
             <div className={styles.text}>
                 <h3>Merchant payment collection</h3>
-                <p>Receive payments securely with Kuleanpay and offer your customers multiple payment options with just <a href="">one link</a>.</p>
+                <p>Receive payments securely with Kuleanpay and offer your customers multiple payment options with just <a>one link</a>.</p>
                 <button>
                     Get Started
                     <img className={styles.icon} src={getImageUrl("icons/rightArrow.png")} alt="" />

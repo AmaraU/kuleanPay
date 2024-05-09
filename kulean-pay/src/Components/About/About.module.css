@@ -1,40 +1,46 @@
 .About{
     width: 100%;
-    padding: 146px 0;
-    background-image: url("../../../assets/image\ 33.png");
+    gap: 24px;
+    /* background-image: url("../../../assets/image\ 33.png"); */
     background-size: 100% 100%;
     display: flex;
     text-align: center;
+    padding: 120px;
     justify-content: center;
 }
 
 .bread{
-    width: 580px;
+    width: 55%;
+    gap: 40px;
     display: block;
+
 }
 
 
 .bread h1{
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 56px;
+    font-weight:400;
+    size: 150px;
+    line-height:100px;
     align-items: center;
     color: #ffffff;
-    font-family: 'PPRadioGrotesk';
+    width: 580px;
+    height:56px;
 }
 
 .bread p{
-    margin-top: 24px;
     font-weight: 400;
-    font-size: 18px;
+    size: 18px;
     line-height: 28px;
     letter-spacing: -0.4px;
     align-items: center;
     color: #dedfe3;
+    padding: 8%;
+    width: 580px;
+    
 }
 
 .bread button{
-    margin-top: 40px;
+    Width: 156px;
     height: 56px;
     border-radius: 8px;
     padding: 14px 20px ;
@@ -43,36 +49,39 @@
     background-color: #0582d2;
     border: none;
     font-size: 16px;
-    display: inline-flex;
-    align-items: center;
+}
+.bread button:hover {
+    background-color: #0571b4;
 }
 
 .icon {
     width: 20px;
-    height: 20px;
+    height: 10px;
+    margin-left: 8px;
 }
 
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 700px) {
     .About{
         width: auto;
         height: 550px;
         gap: 24px;
-        background-image: url("../../../assets/image\ 33.png");
+        background-image: url("pics/image33.png");
         background-size: 100% 100%;
-        display: block;
-        text-align:center;
+        display: flex;
+        text-align: left;
         flex-direction: column;
-        align-items:center;
+        padding: 120px 24px;
     }
     
     .bread{
         width: auto;
         height: auto;
         gap:40px;
-        margin-left: 30%;
+        margin-left: 0;
         display:inline;
         text-align: center;
+        text-align: left;
     }
     
     
@@ -82,19 +91,20 @@
         line-height:100px;
         align-items: center;
         color: #ffffff;
-        width: 580px;
-        height:56px;
+        width: auto;
+        height: auto;
     }
     
     .bread p{
         font-weight: 400;
-        size: 18px;
+        font-size: 18px;
         line-height: 28px;
         letter-spacing: -0.4px;
-        align-items: center;
+        /* align-items: center; */
         color: #dedfe3;
-        padding: 8%;
-        width: 580px;
+        padding: 0;
+        width: auto;
+        margin-bottom: 40px;
         
     }
     

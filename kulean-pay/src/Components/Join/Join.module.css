@@ -1,5 +1,5 @@
 .theWhole {
-    padding: 64px 400px;
+    padding: 64px 450px;
     text-align: center;
     background-color: #FFFFFF;
 }
@@ -44,6 +44,9 @@
     border: none;
     color: #FFFFFF;
 }
+.join button:hover {
+    background-color: #0571b4;
+}
 
 .telegram {
     margin-top: 40px;
@@ -57,9 +60,12 @@
 .telegram a {
     color: #0582D2;
 }
+.telegram a:hover {
+    text-decoration: underline;
+}
 
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 950px) {
 
     .theWhole {
         padding: 64px 24px;

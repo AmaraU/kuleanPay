@@ -3,7 +3,7 @@ import React from'react'
 import { getImageUrl } from "../../utils";
 import styles from"./Bank2.module.css";
 
-export const Bank = () => {
+export const Bank2 = () => {
     return <div className={styles.Bank}>
         <div className={styles.bread}>
             <img src={getImageUrl("frame1.png")} alt="frame" />

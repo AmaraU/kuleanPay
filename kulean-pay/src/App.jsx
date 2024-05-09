@@ -1,11 +1,11 @@
 import styles from "./App.module.css";
-import { BankingPage } from "./Pages/BankingPage/BankingPage";
-import { CompanyPage } from "./Pages/CompanyPage/CompanyPage";
+import { BankingPage } from "./Pages/BankingPage";
+import { CompanyPage } from "./Pages/CompanyPage";
 import { HomePage } from "./Pages/HomePage";
-import { PartnerPage } from "./Pages/PartnerPage/PartnerPage";
+import { PartnerPage } from "./Pages/PartnerPage";
 import { SolutionsEscrowPage } from "./Pages/SolutionsEscrowPage";
 import { SolutionsMerchantPage } from "./Pages/SolutionsMerchantPage";
-import { WhyKP } from "./Pages/WhyKP/WhyKP";
+import { WhyKP } from "./Pages/WhyKP";
 
 function App() {
 

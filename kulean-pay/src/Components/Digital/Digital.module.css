@@ -36,8 +36,6 @@
 
 
 .bread {
-    /* width: 160px; */
-    height: 56px;
     border-radius: 8px;
     padding: 14px 20px;
     gap: 8px;
@@ -49,10 +47,11 @@
     display: inline-flex;
     align-items: center;
 }
+.bread:hover {
+    background-color: #0571b4;
+}
 
 .crumb{
-    /* width: 173px; */
-    height: 56px;
     border-radius: 8px ;
     padding: 14px 20px ;
     gap:8px;
@@ -65,10 +64,13 @@
     display: inline-flex;
     align-items: center;
 }
+.crumb:hover {
+    background-color: #959ba71d;
+}
 
 .banner .img{
-    width: 1120px;
-    height: 440px;
+    width: 100%;
+    height: auto;
     border: 1px;
 }
 
@@ -87,12 +89,12 @@
         width: 100%;
         height: auto;
         padding: 64px 24px;
-        /* gap: 64px; */
     }
     
     .header{
         width: 100%;
         gap: 24px;
+        margin: 0;
     }
     
     .header h1{
@@ -111,39 +113,6 @@
         padding-bottom: 40px;
     }
     
-    
-    .bread {
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        padding: 14px 20px;
-        gap:8px;
-        color: #ffff;
-        background-color: #0582d2;
-        border: none;
-        font-size: 16px;
-        font-weight: 500;
-        margin: 0;
-        justify-content: center;
-    }
-    
-    .crumb{
-        width: 100%;
-        height: auto;
-        border-radius: 8px ;
-        padding: 14px 20px ;
-        gap:8px;
-        color:black;
-        background-color: transparent;
-        margin-left: 0;
-        font-size: 16px;
-        font-weight: 500;
-        border: 1px solid #959BA7;
-        align-items: center;
-        margin-top: 5%;
-        justify-content: center;        
-    }
-    
     .banner .img {
        display: none;
     }
@@ -152,14 +121,31 @@
         width: 100%;
         height: auto;
         border: 1px;
-        /* padding-right: 70%; */
-        display:block;
-    }
-    
-    .icon {
-        width: 20px;
-        height: 20px;
+        display: block;
     }
 
+    
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .header {
+        text-align: left;
+    }
+    
+    .bread {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 16px;
+        padding: 14px 20px;
+        justify-content: center;
+    }
+    .crumb {
+        margin: 0;
+        width: 100%;
+        padding: 14px 20px;
+        justify-content: center;
+    }
     
 }

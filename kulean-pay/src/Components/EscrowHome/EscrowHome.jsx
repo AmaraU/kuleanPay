@@ -23,18 +23,8 @@ export const EscrowHome = () => {
             </div>
 
             <div className={styles.image}>
-                {/* <img className={styles.mainImg1} src={getImageUrl("handshake.png")} alt="" /> */}
                 <img className={styles.mainImg1} src={getImageUrl("EscrowHomeImg.png")} alt="" />
                 <img className={styles.mainImg2} src={getImageUrl("handshake3.png")} alt="" />
-                {/* <div className={styles.boxOne}>
-                    <img src={getImageUrl("icons/star1.png")} alt="" />
-                    <p>We pride ourselves in keeping both parties secured</p>
-                </div>
-
-                <div className={styles.boxTwo}>
-                    <img src={getImageUrl("icons/star2.png")} alt="" />
-                    <p>You have access to create a one-time & Milestone transaction</p>
-                </div> */}
             </div>
 
 

@@ -1,28 +1,35 @@
 .footer {
-    padding: 64px 120px;
+    padding: 64px 90px;
     background-color: #FFFFFF;
 }
 
 .banner {
     background: linear-gradient(100.45deg, #034772 15.3%, #0693EE 89.1%);
-    padding: 0 88px;
+    padding: 0 70px;
     padding-top: 40px;
+    gap: 10px;
 
     display: flex;
     justify-content: space-between;
     align-items: end;
 }
 
+.text {
+    flex: 65%;
+}
+
 .text p {
     font-size: 12px;
     font-weight: 700;
     color: #FFFFFF;
+    margin-bottom: 12px;
 }
 .text h2 {
     font-size: 56px;
     font-weight: 400;
     color: #FFFFFF;
     font-family: 'PPRadioGrotesk';
+    margin-bottom: 40px;
 }
 
 .buttons {
@@ -52,12 +59,13 @@
 }
 
 .image {
-    margin-bottom: 0;
-    vertical-align: bottom;
+    flex: 35%;
+    /* vertical-align: bottom; */
+    display: flex;
 }
 .banner .image img  {
-    width: 402px;
-    height: 324px;
+    width: 400px;
+    height: auto;
 }
 
 .bottom {
@@ -96,6 +104,10 @@
 .logo a {
     color: #0582D2;
 }
+.logo a:hover {
+    text-decoration: underline;
+}
+
 .logo li {
     margin-left: 20px;
     font-family: 'PPRadioGrotesk';
@@ -124,11 +136,45 @@
     margin-right: 8px;
 }
 
+@media screen and (max-width: 1090px) {
 
-@media screen and (max-width: 830px) {
+    .banner {
+        padding: 0 5%;
+    }
+
+    .buttons {
+        width: 100%;
+        height: auto;
+        margin-top: 24px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons a {
+        width: 100%;
+        margin-bottom: 12px;
+        justify-content: center;
+        margin-right: 0;
+    }
+    .buttons img {
+        margin-right: 10px;
+    }
+    
+    .image {
+        margin-top: 67px;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner .image img  {
+        width: 100%;
+        height: auto;
+    }  
+}
+
+@media screen and (max-width: 950px) {
 
     .footer {
-        padding: 0 0 64px 0;
+        padding: 0 20px 64px 20px;
     }
     
     .banner {
@@ -145,38 +191,20 @@
     .text h2 {
         font-size: 56px;
     }
-    
-    .buttons {
-        display: block;
-        width: 100%;
-        height: auto;
-        margin: 0;
-        flex-direction: column;
-        align-items: center;
-    }
-    .buttons button {
-        width: 100%;
-        margin-bottom: 12px;
-        justify-content: center;
-        margin-right: 0;
-    }
-    .buttons img {
-        margin-right: 10px;
-    }
-    .image {
-        margin-top: 67px;
-        align-items: center;
-        justify-content: center;
-    }
-    .banner .image img  {
-        width: 100%;
-        height: auto;
+
+      
+}
+
+@media screen and (max-width: 830px) {
+
+    .footer {
+        padding: 0 0 64px 0;
     }
 
     
     .bottom {
         flex-direction: column;
-        padding: 0 16px;
+        padding: 0 30px;
         margin-bottom: 40px;
     }
     
@@ -185,14 +213,15 @@
         margin-top: 40px;
         display: grid;
         grid-template-columns: repeat(2, 100%);
-        gap: 14px;
-        padding: 0 0 0 0;
+        gap: 40px;
+        padding: 0 15px 0 0;
         width: 50%;
 
     }
 
     .link {
         width: auto;
+        margin-left: 10px;
     }
     
     .providus {

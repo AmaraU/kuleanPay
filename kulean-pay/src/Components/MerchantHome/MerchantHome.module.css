@@ -1,6 +1,6 @@
 .whole {
     background-color: #F5FBFF;
-    padding: 60px 120px 64px 120px;
+    padding: 60px 90px 64px 90px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -14,8 +14,10 @@
 }
 .heading h2 {
     font-size: 56px;
-    font-weight: 400;
+    font-weight: 600;
     color: #09101D;
+    font-family: 'PPRadioGrotesk';
+    margin-bottom: 24px;
 }
 .heading p {
     font-size: 18px;
@@ -38,7 +40,10 @@
     color: #FFFFFF;
     background-color: #0582D2;
     border: none;
-    
+    gap: 8px;
+}
+.buttonOne:hover {
+    background-color: #0571b4;
 }
 .buttonTwo {
     display: inline-flex;
@@ -51,12 +56,15 @@
     color: #111827;
     background-color: transparent;
     border: 1px solid #959BA7;
+    gap: 8px;
+}
+.buttonTwo:hover {
+    background-color: #959ba71d;
 }
 .buttonOne img,
 .buttonTwo img {
     width: 20px;
     height: 20px;
-    margin-left: 10px;
 }
 
 .image .mainImg1 {
@@ -67,48 +75,16 @@
     display: none;
 }
 
-.boxOne {
-    position: absolute;
-    height: auto;
-    top: 600px;
-    left: 120px;
-    padding: 40px;
-    background-color: #FFFFFF;
-    border: 1px solid #F0F7FF;
-    box-shadow: 0px 3px 32px 0px #6B728033;
-}
-.boxOne p,
-.boxTwo p {
-    font-size: 24px;
-    color: #6B7280;
-    width: 151px;
-}
-.boxTwo {
-    position: absolute;
-    top: 700px;
-    right: 120px;
-    padding: 40px;
-    background-color: #FFFFFF;
-    border: 1px solid #F0F7FF;
-    box-shadow: 0px 3px 32px 0px #6B728033;
-}
-.boxOne img,
-.boxTwo img {
-    width: 40px;
-    height: 40px;
-}
 
-
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 950px) {
 
     .whole {
-        padding: 64px 24px 64px 24px;
+        padding: 64px 50px 64px 50px;
         align-items: normal;
     }
     
     .heading {
         margin: 0;
-        text-align: left;
         margin-bottom: 64px;
     }
     .heading h2 {
@@ -116,18 +92,6 @@
     }
     .heading p {
         margin-bottom: 40px;
-    }
-    
-    
-    .buttonOne {
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 16px;
-        padding: 14px 20px;
-    }
-    .buttonTwo {
-        width: 100%;
-        padding: 14px 20px;
     }
     
     
@@ -141,12 +105,29 @@
     .image .mainImg1 {
         display: none;
     }
-    
-    .boxOne {
-        display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .whole {
+        padding: 64px 24px 64px 24px;
+        align-items: normal;
     }
-    .boxTwo {
-        display: none;
-    }    
+
+    .heading {
+        text-align: left;
+    }
+    
+    .buttonOne {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 16px;
+        padding: 14px 20px;
+    }
+    .buttonTwo {
+        width: 100%;
+        padding: 14px 20px;
+    }
     
 }

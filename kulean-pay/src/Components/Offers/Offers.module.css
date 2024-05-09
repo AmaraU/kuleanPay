@@ -16,17 +16,20 @@
     font-size: 14px;
     font-weight: 700;
     color: #0582D2;
+    margin-bottom: 16px;
 }
 .heading h2 {
     font-size: 48px;
     font-weight: 400;
     color: #09101D;
     font-family: 'PPRadioGrotesk';
-    margin-bottom: 12px;
+    margin-bottom: 24px;
+    line-height: 53px;
 }
 .heading p {
     font-size: 18px;
     font-weight: 400;
+    line-height: 28px;
     color: #383B43;
 }
 
@@ -34,7 +37,6 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    /* gap: 24px; */
 }
 
 .offer {
@@ -64,9 +66,10 @@
 
 .offer h3 {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     color: #09101D;
     font-family: 'PPRadioGrotesk';
+    margin-bottom: 12px;
 }
 .offer p {
     font-size: 16px;
@@ -97,6 +100,9 @@
     .offer {
         width: 100%;
         padding: 24px 0;
+    }
+    .offer p {
+        margin-top: 12px;
     }
     
 }

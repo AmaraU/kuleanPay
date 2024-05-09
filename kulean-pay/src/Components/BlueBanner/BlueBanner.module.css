@@ -24,6 +24,7 @@
     color: #F3F4F6;
     margin-bottom: 24px;
     font-family: 'PPRadioGrotesk';
+    line-height: 53px;
 }
 
 .banner p {
@@ -34,7 +35,7 @@
     margin-bottom: 0;
 }
 
-.banner button {
+.banner a {
     width: 160px;
     height: 56px;
     border-radius: 8px;
@@ -48,6 +49,9 @@
     align-items: center;
     margin-top: 40px;
 }
+.banner a:hover {
+    background-color: #0571b4;
+}
 .banner .icon {
     width: 20px;
     height: 20px;
@@ -55,7 +59,7 @@
 }
 
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 950px) {
 
     .banner {
         padding: 64px 24px;
@@ -66,20 +70,25 @@
         text-align: left;
     }
     
-    .banner .img2 {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-    .banner .img1 {
-        display: none;
-    }
-    
     .banner h2 {
         font-size: 46px;
     }
     .banner p {
         font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+
+    .banner .img2 {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .banner .img1 {
+        display: none;
     }
     
 }

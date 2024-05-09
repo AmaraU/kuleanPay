@@ -7,7 +7,7 @@ export const Home = () => {
         <>
         <div className={styles.whole}>
             <div className={styles.text}>
-                <h2>Ensure what you order is what you get with kuleanpay</h2>
+                <h2>Ensure what you ordered is what you get with kuleanpay</h2>
                 <p>Buyers and sellers can now protect their money and integrity respectively when they use Kuleanpay.</p>
                 <div className={styles.buttons}>
                     <button className={styles.buttonOne}>
@@ -24,6 +24,8 @@ export const Home = () => {
                     </div>
                 </div>
             </div>
+
+            <div></div>
 
             <div className={styles.pic}>
                 <img src={getImageUrl("homeImg.svg")} alt="" />

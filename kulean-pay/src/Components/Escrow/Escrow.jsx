@@ -32,6 +32,7 @@ export const Escrow = () => {
                             <p>The buyer and seller can track packages in real time.</p>
                         </div>
                     </div>
+                    
                 </div>
             </div>
 

@@ -5,14 +5,14 @@
 
 .whole h2 {
     font-size: 56px;
-    font-weight: 500;
+    font-weight: 600;
     color: #09101D;
     margin-bottom: 24px;
     font-family: 'PPRadioGrotesk';
 }
 
 .item {
-    padding: 64px 120px;
+    padding: 64px 90px;
 
     display: flex;
     justify-content: space-between;
@@ -42,6 +42,20 @@
     background-color: #F5FBFF;
 }
 
+@media screen and (max-width: 1000px) {
+
+    .item {
+        padding: 24px 24px 64px 24px;
+    }
+
+    .item img {
+        width: 400px;
+        height: auto;
+    }
+    
+    
+}
+
 @media screen and (max-width: 830px) {
    
     .whole {
@@ -58,14 +72,13 @@
     }
     
     .item {
-        padding: 24px 24px 64px 24px;
         flex-direction: column;
     }
 
     .item img {
         flex: 1;
         order: 2;
-        width: 520px;
+        width: 100%;
         height: auto;
     }
     

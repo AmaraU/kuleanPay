@@ -1,6 +1,5 @@
  .Leverage{
-    width: Fill (1,200px)px;
-    /* height: Hug (135px)px; */
+    width: 100%;
     gap: 16px;
     opacity: 0px;
     display: flex;
@@ -92,14 +91,3 @@
     justify-content: center;
 
 }
-
-/* .Leverage{
-    width: Fill (1,200px)px;
-    height: Hug (135px)px;
-    gap: 16px;
-    opacity: 0px;
-    display: block;
-    text-align: center;
-    margin-top: 10%;
-
-} */
