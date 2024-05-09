@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Escrow.module.css";
 import { getImageUrl } from "../../utils";
 
-export const Escrow = () => {
+export const Escrow2 = () => {
     return (
         <>
         <div className={styles.whole}>
