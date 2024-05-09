@@ -1,7 +1,6 @@
 .About{
     width: 100%;
     gap: 24px;
-    /* background-image: url("../../../assets/image\ 33.png"); */
     background-size: 100% 100%;
     display: flex;
     text-align: center;
@@ -30,7 +29,7 @@
 
 .bread p{
     font-weight: 400;
-    size: 18px;
+    font-size: 18px;
     line-height: 28px;
     letter-spacing: -0.4px;
     align-items: center;
@@ -87,7 +86,7 @@
     
     
     .bread h1{
-        font-weight:400;
+        font-weight: 400;
         size: 150px;
         line-height:100px;
         align-items: center;
@@ -101,7 +100,6 @@
         font-size: 18px;
         line-height: 28px;
         letter-spacing: -0.4px;
-        /* align-items: center; */
         color: #dedfe3;
         padding: 0;
         width: auto;
