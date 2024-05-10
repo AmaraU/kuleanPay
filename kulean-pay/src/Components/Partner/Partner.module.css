@@ -1,27 +1,27 @@
 .Partner{
-    width: 1440px;
-    height:576px;
-    padding: 64px 120px;
-    gap: 8px;
+    width: 100%;
+    height: auto;
+    padding: 64px 90px 0 90px;
+    gap: 24px;
     display: flex;
     justify-content: space-between;
     background-color: #F5FBFF;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .bread{
-    width: 580px;
+    flex: 50%;
+    width: 100%;
     display: block;
     align-content: center;
 }
 
 
 .bread h1 {
-    font-weight: 400px;
+    font-weight: 600;
     font-size: 56px;
     display: block;
-    align-content: center;
-    letter-spacing:-1.2px ;    
+    align-content: center; 
 }
 
 .bread p{
@@ -33,70 +33,100 @@
 
 }
 
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
 .crumb{
     width: auto;
-    height:56px;
     padding: 14px 20px;
-    border-radius:8px;
+    border-radius: 8px;
     gap: 8px;
     color: #ffff;
     background-color: #0582d2;
-    margin-top: 40px;
     border: none;
     font-size: 16px;
     font-weight: 500;
-    flex-direction: column;
+}
+.crumb:hover {
+    background-color: #0571b4;
 }
 
 .crumbs{
     width: auto;
-    height: 56px;
-    padding: 14px 20px 14px 20px;
+    height: auto;
+    padding: 14px 20px;
     gap: 8px;
     border-radius: 8px;
     border: 1px solid #959BA7;
     margin-left: 5%;
-    margin-top: 40px;
     font-size: 16px;
     color: #2A2D32;
     font-weight: 500;
     background-color: transparent;
-    flex-direction: column;
+    display: inline-flex;
+    align-items: center;
+}
+.crumbs:hover {
+    background-color: #959ba71d;
 }
 
 .icon  {
     width: 20px;
-    height: 15px;
-    margin-right: 8px;
+    height: 20px;
+}
+
+.img {
+    flex: 50%;
+    display: flex;
+    width: 100%;
+}
+.img img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+
+@media screen and (max-width: 1140px) {
+    .buttons {
+        flex-direction: column;
+        gap: 24px;
+
+    }
+
+    .crumb,
+    .crumbs {
+        margin: 0;
+        width: 100%;
+        padding: 14px;
+        justify-content: center;
+    }
+    
 }
 
 
 @media screen and (max-width: 830px) {
     .Partner{
-        width: auto;
-        height: auto;
-        padding: 64px 120px;
-        gap: 8px;
-        display: flex;
+        padding: 64px 24px 0 24px;
         flex-direction: column;
-        background-color: #F5FBFF;
-        align-items: center;
     }
     
     .bread{
-        width: 580px;
+        width: 100%;
         display: block;
         align-content: center;
+        margin-bottom: 24px;
     }
     
     
     .bread h1 {
-        font-weight: 400px;
+        font-weight: 600;
         font-size: 56px;
         display: block;
-        align-content: center;
-        letter-spacing: -1.2px ;
-        
+        align-content: center;        
     }
     
     .bread p{
@@ -107,38 +137,4 @@
         letter-spacing: -0.2px;
     
     }
-    
-    .crumb{
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        padding: 14px 20px ;
-        gap: 8px;
-        color: #ffff;
-        background-color: #0582d2;
-        border: none;
-        font-size: 16px;
-        font-weight: 500;
-        flex-direction: column;
-        margin-left: 5%;
-        align-items: center;
-    }
-    
-    .crumbs{
-        width: 100%;
-        height: auto;
-        border-radius: 8px ;
-        padding: 14px 20px ;
-        gap: 8px;
-        color: black;
-        background-color: transparent;
-        margin-left: 5%;
-        font-size: 16px;
-        font-weight: 500;
-        border: 1px solid #959BA7;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 5%;
-    }
-    
 }

@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "./Leverage.module.css"
+import { getImageUrl } from "../../utils";
 
 export const Leverage = () => {
     return <div className={styles.Leverage}>
@@ -42,7 +43,13 @@ export const Leverage = () => {
 
                     <div className={styles.formGroup}>
                         <label for="country">Country</label>
-                        <input type="text" name="country" />
+                        <select name="" id="">
+                            <option value="" selected>Choose country</option>
+                            <option value="Nigeria">Nigeria</option>
+                            <option value="Ghana">Ghana</option>
+                            <option value="US">United States</option>
+                            <option value="UK">United Kingdom</option>
+                        </select>
                     </div>
 
                     <div className={styles.formGroup}>
@@ -62,11 +69,17 @@ export const Leverage = () => {
                     <textarea placeholder="Type message here" name="message" />
                 </div>
 
-                <p>I want to stay up to date</p>
+                <div className={styles.checkbox}>
+                    <input value="upToDate" type="checkbox"/>
+                    <label for="upToDate">I want to stay up to date</label>
+                </div>
             </form>
 
             <div className={styles.button}>
-                <button>Submit</button>
+                <button>
+                    Submit
+                    <img src={getImageUrl("icons/whiteRightArrow.png")} />
+                </button>
             </div>
         </div>
     </div>

@@ -1,11 +1,13 @@
 import React from "react";
 import styles from "./BlueBanner.module.css";
 import { getImageUrl } from "../../utils";
+import img from "../../../assets/grid.png";
+
 
 export const BlueBanner = () => {
     return (
         <>
-        <div className={styles.banner}>
+        <div className={styles.banner} style={{backgroundImage:`url(${img})`}}>
             <img className={styles.img1} src={getImageUrl("shield.png")} alt="" />
             <img className={styles.img2} src={getImageUrl("shield2.png")} alt="" />
             <h2>The best way to save yourself from fraudulent transactions</h2>

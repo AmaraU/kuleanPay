@@ -12,11 +12,15 @@ export const Partner = () => {
                 With just a few lines of code, you can quickly create safe, quick services
                 and start taking payments.
             </p>
-            <button className={styles.crumb}>Get in Touch </button>
-            <button className={styles.crumbs}>
-            <img className={styles.icon} src={getImageUrl("icons/Icons3.png")} alt="" />
-                Schedule Meeting
-            </button>
+            
+            <div className={styles.buttons}>
+                <button className={styles.crumb}>Get in Touch </button>
+                <button className={styles.crumbs}>
+                    <img className={styles.icon} src={getImageUrl("icons/calender.png")} alt="" />
+                    Schedule Meeting
+                </button>
+            </div>
+            
         </div>
         <div className={styles.img}>
             <img src={getImageUrl("image1.png")} alt="aa" />
