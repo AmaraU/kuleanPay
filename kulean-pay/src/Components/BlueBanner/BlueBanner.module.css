@@ -1,7 +1,7 @@
 .banner {
     display: flex;
     flex-direction: column;
-    padding: 64px 400px;
+    padding: 64px 0;
     background-color: #011F32;
     background-size: 100% 100%;
     align-items: center;
@@ -24,6 +24,7 @@
     margin-bottom: 24px;
     font-family: 'PPRadioGrotesk';
     line-height: 53px;
+    width: 55%;
 }
 
 .banner p {
@@ -32,13 +33,12 @@
     color: #ACB0B9;
     line-height: 28px;
     margin-bottom: 0;
+    width: 55%;
 }
 
 .banner a {
-    width: 160px;
-    height: 56px;
     border-radius: 8px;
-    padding: 14px 20px;
+    padding: 16px 20px;
     background-color: #0582D2;
     color: #FFFFFF;
     font-size: 16px;
@@ -65,15 +65,21 @@
         background-color: #011F32;
         background-image: url("../../../../assets/grid2.png");
         background-size: 100% 100%;
-        align-items: center;
+        /* align-items: start; */
         text-align: left;
     }
     
     .banner h2 {
         font-size: 46px;
+        width: 100%;
     }
     .banner p {
         font-size: 20px;
+        width: 100%;
+    }
+
+    .banner a {
+        align-self: flex-start;
     }
     
 }

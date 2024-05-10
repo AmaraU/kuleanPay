@@ -1,7 +1,8 @@
 .theWhole {
-    padding: 64px 450px;
+    padding: 64px 0;
     text-align: center;
     background-color: #FFFFFF;
+    /* align-items: center; */
 }
 .theWhole p {
     font-size: 14px;
@@ -9,11 +10,14 @@
     color: #0582D2;
 }
 .theWhole h1 {
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 16px;
     font-size: 48px;
     font-weight: 400;
     color: #09101D;
     font-family: 'PPRadioGrotesk';
+    width: 30%;
 }
 
 .join {
@@ -24,6 +28,9 @@
     padding: 8px 8px 8px 24px;
     font-size: 16px;
     margin-top: 40px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .join input {
     border: none;
@@ -69,6 +76,14 @@
 
     .theWhole {
         padding: 64px 24px;
+    }
+
+    .theWhole h1 {
+        width: 100%;
+    }
+
+    .join {
+        width: 100%;
     }
     
 }

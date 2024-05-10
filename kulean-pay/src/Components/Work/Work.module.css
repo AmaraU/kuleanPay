@@ -6,7 +6,7 @@
 
 h1 {
     font-size: 56px;
-    font-weight: 400;
+    font-weight: 600;
     color: #09101D;
     margin-bottom: 24px;
 }
@@ -14,10 +14,11 @@ h1 {
 .header {
     display: flex;
     align-items: center;    
+    margin-bottom: 24px;
 }
 .header h5 {
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 600;
     color: #09101D;
 }
 .header img {
@@ -33,11 +34,12 @@ h1 {
     font-size: 24px;
     font-weight: 400;
     color: #6B7280;
+    line-height: 36px;
 }
 
 
 .item {
-    padding: 64px 180px;
+    padding: 64px 90px;
 
     display: flex;
     justify-content: space-between;

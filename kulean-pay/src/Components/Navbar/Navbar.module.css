@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-between;
     z-index: 2;
+    gap: 5%;
 }
 
 .folding {
@@ -73,6 +74,9 @@
     font-size: 14px;
     font-weight: 500;
 }
+.buttonOne:hover {
+    background-color: #0584d234;
+}
 
 .buttonTwo {
     border: none;
@@ -81,6 +85,10 @@
     border-radius: 8px;
     padding: 12px 16px;
 }
+.buttonTwo:hover {
+    background-color: #0571b4;
+}
+
 
 button {
     cursor: pointer;
@@ -95,7 +103,6 @@ button {
     width: 100%;
     background-color: #FFFFFF;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     position: absolute;
     z-index: 4;
@@ -155,11 +162,12 @@ a {
     .folding {
         position: absolute;
         right: 0;
-        margin-right: 10%;
+        margin-right: 5%;
         flex-direction: column;
         align-items: flex-end;
         gap: 11px;
         z-index: 3;
+        /* left: 100%; */
     }
     .buttons {
         display: flex;
@@ -183,13 +191,13 @@ a {
         display: none;
         width: 250px;
         height: 100%;
-        margin-right: -75px;
         flex-direction: column;
         align-items: center;
         gap: 13px;
         background-color: #FFFFFF;
-        padding: 24px 33px;
+        padding: 33px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
     }
     
     .menuOpen {
@@ -198,7 +206,7 @@ a {
     }
 
     .buttonOne {
-        margin-top: 10px;
+        margin-top: 24px;
     }
 
     .onCloseTwo {
@@ -212,6 +220,7 @@ a {
     }
 
     .solutionsMobile {
+        margin-top: 24px;
         display: block;
         position: relative;
         width: 100%;

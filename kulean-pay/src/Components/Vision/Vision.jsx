@@ -9,19 +9,19 @@ export const Vision = () => {
             <div className={`${styles.item} ${styles.one}`}>
                 <div className={styles.text}>
                     <div className={styles.header}>
-                        <h5>Vision</h5>
+                        <h5>VISION</h5>
                     </div>
                     <h2>To build high tech IT solutions that empower people and business</h2>
                 </div>
                 
                 <div className={styles.imageDiv}>
-                    <img className={styles.image} src={getImageUrl("image 46.png")} alt="" />
+                    <img className={styles.image} src={getImageUrl("companyImg1.png")} alt="" />
                 </div>
             </div>
             
             <div className={`${styles.item} ${styles.two}`}>
                 <div className={styles.imageDiv}>
-                    <img className={styles.image} src={getImageUrl("image 47.png")} alt="gr" />
+                    <img className={styles.image} src={getImageUrl("companyImg2.png")} alt="gr" />
                 </div>                
                 
                 <div className={styles.text}>

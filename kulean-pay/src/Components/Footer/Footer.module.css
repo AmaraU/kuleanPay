@@ -16,6 +16,7 @@
 
 .text {
     flex: 65%;
+    margin-top: 42px;
 }
 
 .text p {

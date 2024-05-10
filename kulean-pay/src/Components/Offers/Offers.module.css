@@ -1,14 +1,14 @@
 .whole {
     background-color: #FFFFFF;
-    padding: 64px 120px;
+    padding: 64px 5%;
     text-align: center;
 }
 
 .heading {
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     text-align: center;
-    width: 588px;
+    width: 60%;
     margin-bottom: 72px;
 }
 
@@ -20,7 +20,7 @@
 }
 .heading h2 {
     font-size: 48px;
-    font-weight: 400;
+    font-weight: 600;
     color: #09101D;
     font-family: 'PPRadioGrotesk';
     margin-bottom: 24px;
@@ -78,18 +78,26 @@
     color: #4F545E;
 }
 
-@media screen and (max-width: 830px) {
 
+
+@media screen and (max-width: 830px) {
+ 
     .whole {
         flex-direction: column;
         padding: 64px 24px;
     }
 
+    .heading p {
+        text-align: left;
+    }
+
     .heading {
-        width: 345px;
+        width: 100%;
+        text-align: left;
     }
     .heading h2 {
         font-size: 40px;
+        text-align: left;
     }
     
     .offers {

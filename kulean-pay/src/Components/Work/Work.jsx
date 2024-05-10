@@ -17,8 +17,9 @@ export const Work = () => {
                         KYC verification for tier 1 and 2. Your account will be verified instantly and you
                         will be issued an account number
                     </p>
+                    <br />
                     <p>Your aacount number will be visible when you choose the fund wallet
-                        by bank transfer
+                        by bank transfer option.
                     </p>
                 </div>
                 
@@ -38,7 +39,7 @@ export const Work = () => {
                         <h5>Send & receive money instantly</h5>
                     </div>
                     <p>Say no to transactions because we offer you multiple payment options with super-fast transaction time.
-                        We support all local banks in Nigeria
+                        We support all local banks in Nigeria.
                     </p>
                 </div>
             </div>

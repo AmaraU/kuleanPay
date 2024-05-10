@@ -7,14 +7,14 @@ import styles from "./Product.module.css"
 
 export const Product = () => {
    return <div className={styles.product}>
-        <h5>About us</h5>
-         <h1>Kuleanpay is a flagship product of Fifthlab limited</h1>
+        <h5>ABOUT US</h5>
+        <h1>Kuleanpay is a flagship product of Fifthlab limited</h1>
         
         <div className={styles.textLineDot}>
         
             <div className={styles.lineDot}>
                 <img className={styles.dot} src={getImageUrl("dot.png")} alt="" />
-                <img className={styles.line} src={getImageUrl("dotline.png")} alt="" />
+                <img className={styles.line} src={getImageUrl("dottedLine.png")} alt="" />
                 <img className={styles.dot} src={getImageUrl("dot.png")} alt="" />
             </div>
         
@@ -27,7 +27,7 @@ export const Product = () => {
                 </div>
         
                 <div>
-                    <img className={styles.line2} src={getImageUrl("dotline2.png")} alt="" />
+                    <img className={styles.line2} src={getImageUrl("dottedLine2.png")} alt="" />
                 </div>
         
                 <div className={styles.item}>

@@ -1,15 +1,12 @@
-.Vision{
-    padding-top: 64px;
+.Vision {
     text-align: center;
     background-color: #FFFFFF;
-    padding: 0 100px;
 }
 
 h2 {
     font-size: 40px;
     font-weight: 400;
     color: #09101D;
-    margin-bottom: 24px;
 }
 
 .header {
@@ -18,7 +15,7 @@ h2 {
 }
 .header h5 {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 700;
     color: #0582d2;
 }
 .header img {
@@ -34,12 +31,12 @@ h2 {
 
 
 .item {
-    padding: 64px 100px;
+    padding: 64px 90px;
 
     display: flex;
     justify-content: space-between;
     text-align: center;
-    gap: 40px;
+    gap: 48px;
     align-items: center;
 }
 
@@ -53,9 +50,12 @@ h2 {
 }
 
 .textThree {
+    padding: 64px 90px;
+    gap: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #F5FBFF;
 }
 .textThree .header {
     flex: 1;
@@ -65,6 +65,7 @@ h2 {
 .textThree .header h5 {
     text-align: left;
     margin-bottom: 12px;
+    font-weight: 700;
 }
 .textThree .header h2{
     font-size: 30px;
@@ -74,14 +75,18 @@ h2 {
 .but {
     border-radius: 8px;
     padding: 14px 20px;
-    gap: 20px;
+    gap: 8px;
     background-color: #0582d2;
     color: #fff;
-    font-size:16px;
+    font-size: 16px;
     border: none;
     display: inline-flex;
     align-items: center;
 }
+.but:hover {
+    background-color: #0571b4;
+}
+
 .but img {
     width: 20px;
     height: 20px;
@@ -93,7 +98,7 @@ h2 {
 @media screen and (max-width: 830px) {
    
     .Vision {
-        padding: 48px 0;
+        padding: 48px 0 0 0;
     }
     
     h2 {
@@ -128,7 +133,6 @@ h2 {
         padding: 64px 24px;
         flex-direction: column;
     }
-
     .imageDiv {
         flex: 1;
         order: 2;
@@ -140,5 +144,11 @@ h2 {
     
     .textThree{
         flex-direction: column;
+        padding: 64px 24px;
+        align-items: start;
+    }
+    
+    .but {
+        margin-top: 20px;
     }
 }
