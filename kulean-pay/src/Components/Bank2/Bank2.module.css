@@ -18,17 +18,6 @@
     gap: 32px;
 }
 
-.bread img{
-    width: 48px;
-    height: 48px;
-    radius:8px;
-    border: 1px;
-    padding: 8px;
-    gap: 8px;
-    background-color: #f3f4f6;
-    margin-bottom: 30px;
-}
-
 .bread h1{
     font-weight:400px;
     font-size: 24px;
@@ -43,6 +32,22 @@
     line-height: 24px;
     letter-spacing: -1%;
     color: #4F545E;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #DEDFE3;
+    background-color: #F3F4F6;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.icon img {
+    width: 28px;
+    height: 28px;
 }
 
 

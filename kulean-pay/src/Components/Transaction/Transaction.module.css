@@ -20,7 +20,7 @@
     font-weight: 400px;
     color: #09101D;
     margin-bottom: 12px;
-    line-height: 56px;
+    line-height: 65px;
 }
 
 .text p {
@@ -28,19 +28,17 @@
     font-weight: 400;
     color: #383B43;
     margin-top: 30px;
+    line-height: 28px;
 }
-.text button{
-    width: 161px;
-    height: 56px;
+.text button {
     border-radius: 8px;
-    padding: 14px 20px;
+    padding: 16px 20px;
     gap: 20px;
     background-color: #0582d2;
     color: #fff;
     margin-top: 40px;
-    font-size:16px;
-    border: none;
-    
+    font-size: 16px;
+    border: none;   
 }
 
 .image img {
