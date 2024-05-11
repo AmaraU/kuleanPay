@@ -39,5 +39,5 @@ export const Escrow2 = () => {
                 <img className={styles.img2} src={getImageUrl("escrowImg2.png")} alt="" />
             </div>
         </div>
-    )
+    )
 }
