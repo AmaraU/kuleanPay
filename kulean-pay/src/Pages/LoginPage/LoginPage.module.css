@@ -1,0 +1,157 @@
+
+.whole {}
+
+.container {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid #DEDFE3;
+}
+
+.container img {
+    width: 150px;
+    height: 50px;
+    margin: 0;
+}
+
+.container h2 {
+    margin-top: 31px;
+    margin-bottom: 31px;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: 'PPRadioGrotesk';
+}
+
+
+
+form {
+    width: 100%;
+}
+
+.numberFormGroup input,
+.passwordDiv,
+.numberFormGroup select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #C2C5CC;
+    outline: none;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+.phoneNumber {
+    display: flex;
+    gap: 8px;
+}
+.phoneNumber select {
+    flex: 25%;
+}
+.phoneNumber input {
+    flex: 75%;
+}
+
+.numberFormGroup label,
+.passwordFormGroup label {
+    font-size: 14px;
+    color: #6B7280;
+    font-weight: 500;
+    font-family: 'DMSans';
+}
+
+
+.passwordDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.passwordFormGroup input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.passwordDiv button {
+    border: none;
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+}
+.passwordDiv button img {
+    width: 16px;
+    height: 16px;
+}
+
+.passwordFormGroup {
+    display: flex;
+    flex-direction: column;
+}
+.passwordFormGroup a {
+    text-decoration: none;
+    color: #0582D2;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'WorkSans';
+    align-self: flex-end;
+}
+.passwordFormGroup a:hover {
+    text-decoration: underline;
+}
+
+.rememberFormGroup {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.rememberFormGroup input {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #959BA7;
+    color: #959BA7;
+    border-radius: 0px;
+    margin-right: 16px;
+}
+.rememberFormGroup label {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #383B43;
+}
+
+.logIn {
+    width: 100%;
+    padding: 12px 16px;
+    background-color: #0582D2;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+.logIn:hover {
+    background-color: #0571b4;
+}
+
+.container p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #959BA7;
+    text-align: center;
+}
+.container p a {
+    color: #0582D2;
+    text-decoration: none;
+}
+
+.container p a:hover {
+    text-decoration: underline;
+}
+

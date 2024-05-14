@@ -39,9 +39,7 @@ export const Navbar = () => {
                         onClick={() => setMenuOpen(!menuOpen)}
                     />
 
-                    <div className={`${styles.onClose} ${menuOpen && styles.menuOpen}`}
-                        // onClick={() => setMenuOpen(false)}
-                    >
+                    <div className={`${styles.onClose} ${menuOpen && styles.menuOpen}`} >
 
                         <ul className={styles.links}>
                             <li>
@@ -74,8 +72,8 @@ export const Navbar = () => {
                         </ul>
 
                         <div className={styles.buttons}>
-                            <button className={styles.buttonOne}>Log in</button>
-                            <button className={styles.buttonTwo}>Create Account</button>
+                            <a href="/login" className={styles.buttonOne}>Log in</a>
+                            <a href="/createAccount" className={styles.buttonTwo}>Create Account</a>
                         </div>
 
                     </div>

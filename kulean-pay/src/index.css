@@ -5,13 +5,6 @@
     font-style: normal;
 }
 
-/* @font-face {
-    font-family: 'PPRadioGrotesk2';
-    src: url('../fonts/PPRadioGrotesk/PPRadioGrotesk-Black.otf');
-    font-weight: normal;
-    font-style: normal;
-} */
-
 @font-face {
     font-family: 'DMSans';
     src: url('../fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf');
@@ -21,7 +14,7 @@
 
 @font-face {
     font-family: 'WorkSans';
-    src: url('../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf');
+    src: url('../fonts/Work-Sans/WorkSans-VariableFont_wght.ttf');
     font-weight: normal;
     font-style: normal;
 }
