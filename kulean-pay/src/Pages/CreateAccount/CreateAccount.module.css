@@ -1,0 +1,350 @@
+.whole {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.dimmer {
+    display: none;
+    background: #000;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    user-select: none;
+}
+
+.dim {
+    display: block;
+    z-index: 2;
+}
+
+.text {
+    flex: 57%;
+}
+
+.text ul {
+    list-style: none;
+    width: 80%;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 32px;
+}
+.text li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.itemText h5 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    font-family: 'PPRadioGrotesk';
+    color: #2A2D32;
+    margin-bottom: 16px;
+}
+
+.itemText p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4F545E;
+}
+
+.container {
+    flex: 43%;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid #DEDFE3;
+}
+
+.container img {
+    width: 150px;
+    height: 50px;
+    margin: 0;
+}
+
+.container h2 {
+    margin-top: 31px;
+    margin-bottom: 31px;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: 'PPRadioGrotesk';
+    align-self: start;
+}
+
+
+
+.inputForm {
+    width: 100%;
+}
+
+.numberFormGroup input,
+.passwordDiv,
+.numberFormGroup select,
+.codeFormGroup input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #C2C5CC;
+    outline: none;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+.phoneNumber {
+    display: flex;
+    gap: 8px;
+}
+.phoneNumber select {
+    flex: 25%;
+}
+.phoneNumber input {
+    flex: 75%;
+}
+
+.numberFormGroup label,
+.passwordFormGroup label,
+.codeFormGroup label {
+    font-size: 14px;
+    color: #6B7280;
+    font-weight: 500;
+    font-family: 'WorkSans';
+}
+
+
+.passwordDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.passwordFormGroup input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.passwordDiv button {
+    border: none;
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+}
+.passwordDiv button img {
+    width: 16px;
+    height: 16px;
+}
+
+.agree {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.agree input {
+    width: 18px;
+    height: 18px;
+    color: #959BA7;
+    border-radius: 0px;
+    margin-right: 16px;
+}
+.agree label {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #4F545E;
+}
+.agree label a {
+    color: #0582D2;
+}
+.agree label a:hover {
+    text-decoration: underline;
+}
+
+.create {
+    width: 100%;
+    display: flex;
+    padding: 12px 16px;
+    background-color: #0582D2;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+.create:hover {
+    background-color: #0571b4;
+}
+
+.container p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #959BA7;
+    text-align: center;
+}
+.container p a {
+    color: #0582D2;
+    text-decoration: none;
+}
+
+.container p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.close {
+    display: flex;
+    border-radius: 50%;
+    background-color: #F3F4F6;
+    align-self: end;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+    border: none;
+}
+.close img {
+    width: 24px;
+    height: 24px;
+}
+
+.theModal {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 64px 40px;
+    background-color: #FFFFFF;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 100;
+}
+.popped {
+    background: #FFF;
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.theModal h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'PPRadioGrotesk';
+    color: #09101D;
+    margin-bottom: 8px;
+}
+
+.theModal p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #4F545E;
+}
+.theModal span {
+    color: #0582D2;
+}
+
+
+.modalForm {
+    justify-content: center;
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modalForm input {
+    height: 48px;
+    width: 48px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #DEDFE3;
+    text-align: center;
+    font-size: 50px;
+    color: #0582D2;
+    line-height: 25px;
+}
+
+.modalForm input:valid {
+    border: 1px solid #A5DBFD;
+    background-color: #F5FBFF;
+    /* caret-color: transparent; */
+}
+
+.modalForm input::-webkit-inner-spin-button,
+.modalForm input::-webkit-outer-spin-button {
+    display: none;
+}
+
+.modalForm input:disabled {
+    background-color: #F3F4F6;
+}
+
+.inputField {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+
+.resend {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #0582D2;
+}
+.resend:hover {
+    text-decoration: underline;
+}
+
+.button {
+    margin-top: 90px;
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 8px;
+    background-color: #4f9dcd;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: 'WorkSans';
+    background-color: light;
+    transition: all 0.2 ease;
+    cursor: pointer;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    background-color: #0582D2;
+    pointer-events: auto;
+}
+
+.button:hover {
+    background-color: #0571b4;
+}

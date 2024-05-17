@@ -40,12 +40,6 @@ export const LoginPage = () => {
                         </div>
                     </div>
 
-                    {/* <PhoneInput
-                            defaultCountry="NG"
-                            value={number}
-                            onChange={setNumber}
-                        /> */}
-
                     <div className={styles.passwordFormGroup}>
                         <label for="password">Password</label>
                         <div className={styles.passwordDiv}>
@@ -54,7 +48,7 @@ export const LoginPage = () => {
                                 <img src={getImageUrl("icons/view.png")} alt="view" />
                             </button>
                         </div>
-                        <a href="">Forgot password?</a>
+                        <a href="/resetPassword2">Forgot password?</a>
                     </div>
 
                     <div className={styles.rememberFormGroup} >
@@ -62,10 +56,10 @@ export const LoginPage = () => {
                         <label for="checkbox">Remember me</label>
                     </div>
 
-                    <button className={styles.logIn}>Log In</button>
+                    <a href="" className={styles.logIn}>Log In</a>
                 </form>
 
-                <p>I don't have an account. <a href="">Create Account</a></p>
+                <p>I don't have an account. <a href="/createAccount">Create Account</a></p>
 
             </div>
         </div>

@@ -1,9 +1,11 @@
 import styles from "./App.module.css";
 import { BankingPage } from "./Pages/BankingPage";
 import { CompanyPage } from "./Pages/CompanyPage";
+import { CreateAccount } from "./Pages/CreateAccount/CreateAccount";
 import { HomePage } from "./Pages/HomePage";
 import { LoginPage } from "./Pages/LoginPage/LoginPage";
 import { PartnerPage } from "./Pages/PartnerPage";
+import { resetPassword2 } from "./Pages/ResetPassword2/ResetPassword2";
 import { SolutionsEscrowPage } from "./Pages/SolutionsEscrowPage";
 import { SolutionsMerchantPage } from "./Pages/SolutionsMerchantPage";
 import { WhyKP } from "./Pages/WhyKP";
@@ -36,6 +38,12 @@ function App() {
       break
     case "/login":
       Component = LoginPage
+      break
+    case "/resetPassword2":
+      Component = resetPassword2
+      break
+    case "/createAccount":
+      Component = CreateAccount
       break
   }
 
